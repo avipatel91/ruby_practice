@@ -9,4 +9,5 @@ describe("find_and_replace") do
 	it("should replace partial matches") do
 		expect("I am walking my cat to the cathedral".find_and_replace("cat", "dog")).to(eq("I am walking my dog to the doghedral"))
 	end
+
 end
