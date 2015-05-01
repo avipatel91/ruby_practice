@@ -1,0 +1,8 @@
+<h1>More albums by <%= @artist %>:</h1>
+<ul>
+	<% @albums.each do |cd| %>
+		<li><a href="/cds/<%=cd %>"><%= cd %></a></li>
+	<% end %>
+</ul>
+
+<a href="/">Return to Main Page</a>
